@@ -69,8 +69,6 @@ int main()
     double target3 = 2.75;
     double target4 = 3.0;
 
-    vector<double>::iterator it;
-
     // Check whether they are in the vector or not
     findElement(gpaVector, target1);
     findElement(gpaVector, target2);
