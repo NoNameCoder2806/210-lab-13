@@ -136,6 +136,10 @@ void fileInput(vector<double>& gpaVector, string path)
         // Add the value into the vector
         gpaVector.push_back(value);
     }
+
+    // Clear and close the file
+    fin.clear();
+    fin.close();
 }
 
 /*
